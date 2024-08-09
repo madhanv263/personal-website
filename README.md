@@ -23,7 +23,7 @@ To view the portfolio, you can either clone this repository and open the `index.
 1. **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/madhanv263/MyPortfolio.git
+   git clone https://github.com/madhanv263/personal-website.git
 
 2. **Navigate to the Directory:**
 
