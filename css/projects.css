@@ -1,0 +1,67 @@
+/*Projects Section*/
+.project-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.project {
+  flex: 1 1 calc(50% - 20px);
+  padding: 0;
+  background: #f4f4f4;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+.project-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.project h3 {
+  margin: 15px 20px 5px;
+}
+
+.project-description {
+  margin: 0 20px 15px;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.links {
+  margin: 0 20px 20px;
+}
+
+.links a {
+  text-decoration: none;
+  color: white;
+  background: rgb(153, 47, 253);
+  padding: 5px 10px;
+  border-radius: 3px;
+  margin-right: 10px;
+}
+
+.links a:hover {
+  text-decoration: underline;
+  background: rgba(255, 255, 255, 0.4);
+  color: black;
+}
+
+.project-section {
+  padding: 4rem 20px;
+  margin: 0;
+  min-height: calc(100vh - 4rem);
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+h2 {
+  margin: 0 0 20px;
+  padding: 20px 0;
+  text-align: center;
+}
